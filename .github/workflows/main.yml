@@ -32,7 +32,7 @@ on:
   push:
     branches:
       - main
-job:
+jobs:
   extract-job:
     runs-on: ubuntu-latest
     steps:
