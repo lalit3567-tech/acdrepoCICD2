@@ -71,7 +71,7 @@ jobs:
       - name: run python code
         run: echo "job2"
   job3:
-    needs: job2
+    needs: job1
     runs-on: ubuntu-latest
     steps:
       - name: run python code
